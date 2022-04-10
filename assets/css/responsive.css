@@ -1,0 +1,50 @@
+@media screen and (max-width:740px) {
+    .s-col-full {
+        width: 100%;
+    }
+   
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display:none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav li a {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display:inline-block;
+    }
+
+
+    #nav .subnav {
+        position:initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 42px;
+    }
+    
+    #content .member-img {
+        width: 60%;
+    }
+
+    
+}
