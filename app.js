@@ -50,7 +50,6 @@ var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
 
 for (const key in menuItems) {
     const menuItem = menuItems[key];
-    console.log(menuItem);
    
     menuItem.onclick = function (event) {
         var isParentMenu = this.nextElementSibling
