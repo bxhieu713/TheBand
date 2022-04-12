@@ -1,8 +1,50 @@
-@media screen and (max-width:740px) {
+
+/* Tablet và Mobile */
+@media screen and (max-width:1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    
+    #nav .subnav a {
+            padding: 5px 12px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info{
+        line-height: 2;
+    }
+
+    #footer .social-list {
+        font-size: 30px;
+    }
+
+    #footer .social-list a {
+        margin: 0 6px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width:739px) {
+ 
+    .s-full-width,
     .s-col-full {
-        width: 100%;
+        width: 100% !important;
     }
    
+    .s-mt-8 {
+        margin-top: 8px !important; 
+    }
+
     #header {
         overflow: hidden;
     }
@@ -44,6 +86,11 @@
     
     #content .member-img {
         width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+
     }
 
     

@@ -66,6 +66,10 @@ kiểu dáng, vuông, dài
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .col-full {
     width: 100%
 }
@@ -81,6 +85,7 @@ kiểu dáng, vuông, dài
     padding: 11px 16px;
     margin-top: 15px;
     border:none;
+    text-align:center;
 }
 
 .btn:hover {
@@ -219,7 +224,7 @@ kiểu dáng, vuông, dài
     margin-top: 46px;
     /* bằng 50% chiều ngang của chính nó */
     padding-top: 50%;
-    background: url('../img/slider.jpg') top center/cover no-repeat;
+    background: url('../img/ny.jpg') top center/cover no-repeat;
 
 }
 
@@ -242,6 +247,8 @@ kiểu dáng, vuông, dài
 
 #slider .text-description {
     font-size: 15px;
+    margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 
